@@ -35,7 +35,8 @@ public:
 	float m_rudder_rotation_z;
 	char byte128;
 	char byte129;
-	char pad[5];
+	char byte12A;
+	char pad[4];
 };
 static_assert(sizeof(CVehicleControlDataNode) == 0x130);
 #pragma pack(pop)
